@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en" ng-app="mainApp" ng-controller="MainCtrl">
+    <head>
+      <meta charset="utf-8">
+        <title>Welcome to Items OP!</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/app.css">
+        <script src="lib/angular/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/mainController.js"></script>
+    </head>
+
+    <body>
+        <div id="title">
+            <table style="width:inherit;">
+                <tr>
+                    <td style="width:33%;"></td>
+                    <td style="width:33%;"><h1 style="font-family:">Welcome to Items OP!</h1></td>
+                    <td style="width:33%;"><img ng-src="images/ajax-loader.gif" ng-show="!doneLoading"/></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="body">
+            <div id="content">
+                <ul class="unstyled" style="font-weight:bold;font-size:14px;">
+                    <li style="margin:5px;" ng-show="showSearch['Main'][0]">
+                        <input type="text" ng-model="query['Main'][0]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+                        <input class="EasyControl" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+                    </li>
+                    <li style="margin:5px;" ng-show="showSearch['Main'][1]">
+                        <input type="text" ng-model="query['Main'][1]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+                        <input class="EasyControl" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(1, 'Main')"/>
+                    </li>
+                    <li style="margin:5px;" ng-show="showSearch['Main'][2]">
+                        <input type="text" ng-model="query['Main'][2]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+                        <input class="EasyControl" id="Button2" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(2, 'Main')"/>
+                    </li>
+                    <li style="margin:5px;" ng-show="showSearch['Main'][3]">
+                        <input type="text" ng-model="query['Main'][3]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+                        <input class="EasyControl" id="Button3" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(3, 'Main')"/>
+                    </li>
+                    <li style="margin:5px;" ng-show="showSearch['Main'][4]">
+                        <input type="text" ng-model="query['Main'][4]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+                        <input class="EasyControl" id="Button4" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(4, 'Main')"/>
+                    </li>
+                </ul>
+
+                <table style="width:inherit;">
+                    <tr>
+                        <td style="width:350px;">
+                            <ul ng-show="itemsPerPage.value != 0" class="pagination">
+                                <li ng-class="{disabled: currentPage.value == 0}">
+                                    <a class="EasyControl" href ng-click="prevPage()">Prev Page</a>
+                                </li>
+                                <li>
+                                    <a class="EasyControl noOrange" >
+                                    Page 
+                                    <select title="Choose a page." class="buttonSelect" ng-init="newPage.value=1" ng-model="newPage.value" ng-change="goToPage(newPage.value)">
+                                    <option ng-repeat="page in pagedItems">{{$index + 1}}</option>
+                                    </select>
+                                    of 
+                                    {{pagedItems.length}}
+                                    </a>
+                                </li>
+                                <li ng-class="{disabled: currentPage.value == pagedItems.length - 1}">
+                                    <a class="EasyControl" href ng-click="nextPage()">Next Page</a>
+                                </li>
+                            </ul>
+
+                            <label><b>{{resultsCount['Main']}} results:</b></label>
+                        </td>
+                        <td style="width:780px;"></td>
+                        <td>
+                            <ul class="pagination" style="width:300px;text-align:center;">
+                                <li style="text-align:left" title="Choose the number of items to display on each page of the data table.">
+                                    <a class="EasyControl noOrange">
+                                        <span style="font-weight:bold;font-size:13px;width:80px;">Results per page:</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="EasyControl noOrange" style="width:71px;">
+                                        <select class="buttonSelect" ng-change="changeResultsPerPage()" ng-model="itemsPerPage.value" style="width:71px;">
+                                            <option value="5">5</option>
+                                            <option value="10">10</option>
+                                            <option value="20">20</option>
+                                            <option value="50">50</option>
+                                            <option value="100">100</option>
+                                            <option value="0">All</option>
+                                        </select>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class="pagination" style="width:300px;text-align:center;">
+                                <li style="text-align:left" title="Choose the % of wins to display the items and spells.">
+                                    <a class="EasyControl noOrange">
+                                        <span style="font-weight:bold;font-size:13px;">Minimum win %:</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="EasyControl noOrange" style="width:71px;">
+                                        <select class="buttonSelect" ng-change="changePercentDisplay()" ng-model="percentToDisplay.value" style="width:71px;">
+                                            <option value="0.05">5%</option>
+                                            <option value="0.1">10%</option>
+                                            <option value="0.2">20%</option>
+                                            <option value="0.5">50%</option>
+                                            <option value="0.9">90%</option>
+                                            <option value="0.0">All</option>
+                                        </select>
+                                    </a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="table table-striped" rules="all">
+                    <thead>
+                        <tr>
+                            <th style="width:90px;" ng-click="sort_by('championName', 'Main')">Champion<span style="color:white">{{collapseChar['Main'].championName}}</span></th>
+                            <th>Items<span style="color:white"></span></th>
+                            <th style="width:20%;">Spells<span style="color:white"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in pagedItems[currentPage.value] | orderBy:predicate['Main']:reverse['Main'] | limitTo:numItemsDisplayed">
+                            <td style="font-size:medium; font-weight:bold">
+                                <img ng-src="images/champion/{{item.imageName}}" height="80" width="80" title="{{item.championName}}">
+                                {{item.championName}} <br />
+                                <label>{{item.totalWins}} wins</label>
+                            </td>
+                            <td style="font-weight:bold">
+                                <span ng-repeat="purchase in item.items | orderBy:'count':true">
+                                    <div ng-show="shouldShow(purchase, item)" style="float:left;margin:3px;">
+                                        <img ng-src="images/item/{{purchase.itemId}}.png" height="50" width="50" title="{{purchase.itemName}}">
+                                        <div>{{(purchase.count / item.totalWins) * 100 | number:2}}%</div>
+                                    </div>
+                                </span>
+                            </td>
+                            <td style="font-weight:bold">
+                                <span ng-repeat="spell in item.spells | orderBy:'count':true">
+                                    <div ng-show="shouldShow(spell, item)" style="float:left;width:80px;">
+                                        <img ng-src="images/spell/{{spell.spellName}}.png" height="50" width="50" title="{{spell.spellName}}">
+                                        <div>{{(spell.count / item.totalWins) * 100 | number:2}}%</div>
+                                    </div>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div ng-show="itemsPerPage.value == 0 && numItemsDisplayed < resultsCount['Main']">
+                    <input class="EasyControl" style="width:auto;height:50px;" type="button" value="Load 25 More" ng-click="increaseDisplayLimit()" />
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <h6>This product is not endorsed, certified or otherwise approved in any way by Riot Games, Inc. or any of its affiliates.</h6>
+        </div>
+    </body>
+</html>

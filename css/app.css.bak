@@ -1,0 +1,115 @@
+/* app css stylesheet */
+
+body
+{
+    background: url(http://stevenwilsonhq.com/sw/wp-content/uploads/bg-images/hajo-background5-dark.jpg) no-repeat center center fixed;
+}
+
+input {
+    margin-bottom: 0;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    word-wrap: break-word;
+    border:1px solid darkblue;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th
+{
+    cursor: pointer;
+    fill-opacity:0.4;
+    border:1px solid #00008B;
+    color:white;
+}
+
+.table th:hover
+{
+    fill-opacity:0.4;
+    color: white;
+}
+
+.container-generic
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height:auto;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+    color:sandybrown;
+}
+
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+}
+
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+}
+
+input[type=button]
+{
+    width: 30px;
+}
+
+.EasyControl
+{
+    background-color:#0A75C7;
+    color: white;
+}
+
+.EasyControl:hover
+{
+    background-color: #EC8000;
+}
+
+input[disabled],
+input[disabled]:hover
+{
+    color: #999999;
+    cursor: default;
+    background-color: transparent;
+}
+
+.pagination .disabled a,
+.pagination .disabled a:hover {
+  color: #999999;
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination a:hover {
+    background-color: #EC8000;
+    color: white;
+}
+
+select
+{
+    margin:0;
+}
+
+.buttonSelect
+{
+    width:60px;
+    margin-bottom:3px;
+}
+
+.noOrange
+{
+    cursor: default;
+    background-color: transparent !important;
+    color:black !important;
+}

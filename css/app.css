@@ -1,0 +1,155 @@
+/* app css stylesheet */
+
+html {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    background: url(http://stevenwilsonhq.com/sw/wp-content/uploads/bg-images/hajo-background5-dark.jpg) no-repeat center center fixed;
+    opacity:0.9;
+}
+
+#title {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding: 10px;
+    width: 1400px;
+    height: auto;
+    background-color: #D1D1D1;
+    border: solid 1px #CCC;
+    border-radius: 5px;
+    text-align:center;
+}
+
+#body {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding: 10px;
+    width: 1400px;
+    height:auto;
+    background-color: #D1D1D1;
+    border: solid 1px #CCC;
+    border-radius: 5px;
+}
+
+#footer {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding: 10px;
+    width: 1400px;
+    height: auto;
+    background-color: #D1D1D1;
+    border: solid 1px #CCC;
+    border-radius: 5px;
+    text-align:center;
+    font-weight:bold;
+    color:black;
+}
+
+#content {
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px;
+    min-height: 200px;
+    width:auto;
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    border-radius: 5px;
+    opacity:0.9
+}
+
+.EasyControl
+{
+    background-color:#374d5a;
+    color: white;
+}
+
+.EasyControl:hover
+{
+    background-color: #858000;
+}
+
+input[disabled],
+input[disabled]:hover
+{
+    color: #999999;
+    cursor: default;
+    background-color: transparent;
+}
+
+input[type=button]
+{
+    width: 30px;
+}
+
+input {
+    margin-bottom: 0;
+}
+
+.pagination .disabled a,
+.pagination .disabled a:hover {
+  color: #999999;
+  cursor: default;
+  background-color: transparent;
+}
+
+.pagination a:hover {
+    background-color: #858000;
+    color: white;
+}
+
+.noOrange
+{
+    cursor: default;
+    background-color: transparent !important;
+    color:black !important;
+}
+
+.buttonSelect
+{
+    width:60px;
+    margin-bottom:3px;
+}
+
+select
+{
+    margin:0;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th
+{
+    cursor: pointer;
+    background-color: #374d5a;
+    color:white;
+    
+}
+
+.table th:hover
+{
+    background-color: #858000;
+    color:black;
+}
+
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+  background-color: #C1d2d7;
+}
+
+.table tbody tr:hover td,
+.table tbody tr:hover th {
+  background-color: #97D7D7;
+}
