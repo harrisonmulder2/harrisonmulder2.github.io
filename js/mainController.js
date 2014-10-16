@@ -266,7 +266,7 @@ mainController.controller('MainCtrl', ['$scope', '$http', '$filter',
                 }
             };
 
-            // Navigates to the previous page
+            // Navigates to the next page
             $scope.nextPage = function () {
                 if ($scope.currentPage.value < $scope.pagedItems.length - 1) {
                     $scope.currentPage.value++;
@@ -307,13 +307,19 @@ mainController.controller('MainCtrl', ['$scope', '$http', '$filter',
             };
 
             $scope.shouldShow = function (item, parent) {
-                if((item.count / parent.totalWins) >= $scope.percentToDisplay.value){
+                if((item.count / parent.totalWins) >= $scope.percentToDisplay.value)
+				{
                     return true;
                 }
-            else{
-                return false;
-                }
+				else
+				{
+					return false;
+				}
             }
+
+			$scope.getStyle = function (xCoord, yCoord, ISprite) {
+				return 'url("http://ddragon.leagueoflegends.com/cdn/4.4.3/img/sprite/' + ISprite + ') ' + xCoord + 'px ' + yCoord + 'px no-repeat';
+			};
 
             $http.get("https://api.mongolab.com/api/1/databases/leagueapp/collections/ItemIds?apiKey=LbdsOrwTL5008Fb-T4TLQMtnFaXFI7D-").success(function (data) {
                 $scope.itemIds = data;
