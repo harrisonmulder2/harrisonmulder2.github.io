@@ -75,7 +75,7 @@ mainController.controller('MainCtrl', ['$scope', '$http', '$filter',
 
             // Calls the BE API to get the data then displays them
             $scope.grabData = function () {
-                $http.get("https://bestitemsna.info/champs.txt").success(function (data) {
+                $http.get("https://api.mongolab.com/api/1/databases/leagueapp/collections/Champions?apiKey=LbdsOrwTL5008Fb-T4TLQMtnFaXFI7D-").success(function (data) {
                     $scope.data = data;
 
                     filteredData = $scope.data;
@@ -321,7 +321,7 @@ mainController.controller('MainCtrl', ['$scope', '$http', '$filter',
 				return 'url("http://ddragon.leagueoflegends.com/cdn/4.4.3/img/sprite/' + ISprite + ') ' + xCoord + 'px ' + yCoord + 'px no-repeat';
 			};
 
-            $http.get("http://bestitemsna.info/games.txt").success(function (data) {
+            $http.get("https://api.mongolab.com/api/1/databases/leagueapp/collections/ItemIds?apiKey=LbdsOrwTL5008Fb-T4TLQMtnFaXFI7D-").success(function (data) {
                 $scope.itemIds = data;
                 $scope.grabData();
             });
