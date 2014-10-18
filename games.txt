@@ -1,0 +1,118 @@
+[
+  {
+    "summonerId": "21160952",
+    "gameId": "1589730681"
+  },
+  {
+    "summonerId": "21160952",
+    "gameId": "1589675156"
+  },
+  {
+    "summonerId": "21160952",
+    "gameId": "1589662463"
+  },
+  {
+    "summonerId": "21160952",
+    "gameId": "1586413451"
+  },
+  {
+    "summonerId": "21160952",
+    "gameId": "1586319074"
+  },
+  {
+    "summonerId": "21160952",
+    "gameId": "1586323612"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1590514910"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1590417355"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1590410603"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1589675620"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1589662463"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1589643612"
+  },
+  {
+    "summonerId": "22955225",
+    "gameId": "1589478786"
+  },
+  {
+    "summonerId": "28908167",
+    "gameId": "1590410603"
+  },
+  {
+    "summonerId": "28908167",
+    "gameId": "1590281720"
+  },
+  {
+    "summonerId": "28908167",
+    "gameId": "1590147100"
+  },
+  {
+    "summonerId": "28908167",
+    "gameId": "1590122223"
+  },
+  {
+    "summonerId": "28908167",
+    "gameId": "1589280111"
+  },
+  {
+    "summonerId": "20225950",
+    "gameId": "1590235483"
+  },
+  {
+    "summonerId": "20225950",
+    "gameId": "1588599343"
+  },
+  {
+    "summonerId": "20225950",
+    "gameId": "1587255377"
+  },
+  {
+    "summonerId": "20225950",
+    "gameId": "1586533035"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1590511997"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1590141503"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1589086554"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1589058854"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1588884547"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1588599343"
+  },
+  {
+    "summonerId": "21304576",
+    "gameId": "1588611713"
+  }
+]

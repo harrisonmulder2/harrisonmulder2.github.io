@@ -1,0 +1,1841 @@
+[
+  {
+    "championName": "Soraka",
+    "totalWins": 4,
+    "items": [
+      {
+        "itemId": 3098,
+        "itemName": "Frostfang",
+        "count": 2,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "itemId": 3105,
+        "itemName": "Aegis of the Legion",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 0,
+        "y": 48
+      },
+      {
+        "itemId": 3089,
+        "itemName": "Rabadon's Deathcap",
+        "count": 4,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 432
+      },
+      {
+        "itemId": 1026,
+        "itemName": "Blasting Wand",
+        "count": 3,
+        "sprite": "item0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "itemId": 3117,
+        "itemName": "Boots of Mobility",
+        "count": 3,
+        "sprite": "item1.png",
+        "x": 0,
+        "y": 96
+      },
+      {
+        "itemId": 3041,
+        "itemName": "Mejai's Soulstealer",
+        "count": 3,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 288
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 4,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      },
+      {
+        "itemId": 3174,
+        "itemName": "Athene's Unholy Grail",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 240
+      },
+      {
+        "itemId": 3165,
+        "itemName": "Morellonomicon",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 192
+      },
+      {
+        "itemId": 1056,
+        "itemName": "Doran's Ring",
+        "count": 2,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 96
+      },
+      {
+        "itemId": 3100,
+        "itemName": "Lich Bane",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 0
+      },
+      {
+        "itemId": 1058,
+        "itemName": "Needlessly Large Rod",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 96
+      },
+      {
+        "itemId": 1001,
+        "itemName": "Boots of Speed",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 4,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 4,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion2.png",
+    "x": 432,
+    "y": 96
+  },
+  {
+    "championName": "Karma",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 1056,
+        "itemName": "Doran's Ring",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 96
+      },
+      {
+        "itemId": 3165,
+        "itemName": "Morellonomicon",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 192
+      },
+      {
+        "itemId": 3108,
+        "itemName": "Fiendish Codex",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 96,
+        "y": 48
+      },
+      {
+        "itemId": 3255,
+        "itemName": "Enchantment: Homeguard",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 144,
+        "y": 384
+      },
+      {
+        "itemId": 3041,
+        "itemName": "Mejai's Soulstealer",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 288
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      }
+    ],
+    "sprite": "champion1.png",
+    "x": 0,
+    "y": 48
+  },
+  {
+    "championName": "Sona",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3070,
+        "itemName": "Tear of the Goddess",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 384
+      },
+      {
+        "itemId": 3100,
+        "itemName": "Lich Bane",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 0
+      },
+      {
+        "itemId": 1058,
+        "itemName": "Needlessly Large Rod",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 96
+      },
+      {
+        "itemId": 3108,
+        "itemName": "Fiendish Codex",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 96,
+        "y": 48
+      },
+      {
+        "itemId": 3041,
+        "itemName": "Mejai's Soulstealer",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 288
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      }
+    ],
+    "sprite": "champion2.png",
+    "x": 384,
+    "y": 96
+  },
+  {
+    "championName": "Vladimir",
+    "totalWins": 2,
+    "items": [
+      {
+        "itemId": 3152,
+        "itemName": "Will of the Ancients",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 432,
+        "y": 144
+      },
+      {
+        "itemId": 3279,
+        "itemName": "Enchantment: Alacrity",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 0
+      },
+      {
+        "itemId": 3157,
+        "itemName": "Zhonya's Hourglass",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 192,
+        "y": 192
+      },
+      {
+        "itemId": 3135,
+        "itemName": "Void Staff",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 336,
+        "y": 96
+      },
+      {
+        "itemId": 1058,
+        "itemName": "Needlessly Large Rod",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 96
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      },
+      {
+        "itemId": 3136,
+        "itemName": "Haunting Guise",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 96
+      },
+      {
+        "itemId": 3145,
+        "itemName": "Hextech Revolver",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 144
+      },
+      {
+        "itemId": 3116,
+        "itemName": "Rylai's Crystal Scepter",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 432,
+        "y": 48
+      },
+      {
+        "itemId": 3158,
+        "itemName": "Ionian Boots of Lucidity",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 192
+      },
+      {
+        "itemId": 1052,
+        "itemName": "Amplifying Tome",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      },
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion3.png",
+    "x": 432,
+    "y": 48
+  },
+  {
+    "championName": "Lucian",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3277,
+        "itemName": "Enchantment: Furor",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "itemId": 3142,
+        "itemName": "Youmuu's Ghostblade",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 144,
+        "y": 144
+      },
+      {
+        "itemId": 3144,
+        "itemName": "Bilgewater Cutlass",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 144
+      },
+      {
+        "itemId": 3181,
+        "itemName": "Sanguine Blade",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 432,
+        "y": 240
+      },
+      {
+        "itemId": 3031,
+        "itemName": "Infinity Edge",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 288
+      },
+      {
+        "itemId": 3035,
+        "itemName": "Last Whisper",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 288
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      },
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      }
+    ],
+    "sprite": "champion1.png",
+    "x": 96,
+    "y": 96
+  },
+  {
+    "championName": "Sivir",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3211,
+        "itemName": "Spectre's Cowl",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 336
+      },
+      {
+        "itemId": 3181,
+        "itemName": "Sanguine Blade",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 432,
+        "y": 240
+      },
+      {
+        "itemId": 3031,
+        "itemName": "Infinity Edge",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 288
+      },
+      {
+        "itemId": 3006,
+        "itemName": "Berserker's Greaves",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 240
+      },
+      {
+        "itemId": 3046,
+        "itemName": "Phantom Dancer",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 336
+      },
+      {
+        "itemId": 3035,
+        "itemName": "Last Whisper",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 288
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      },
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      }
+    ],
+    "sprite": "champion2.png",
+    "x": 288,
+    "y": 96
+  },
+  {
+    "championName": "Sion",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 1043,
+        "itemName": "Recurve Bow",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 48
+      },
+      {
+        "itemId": 3068,
+        "itemName": "Sunfire Cape",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 384
+      },
+      {
+        "itemId": 3270,
+        "itemName": "Enchantment: Homeguard",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 432
+      },
+      {
+        "itemId": 3083,
+        "itemName": "Warmog's Armor",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 432
+      },
+      {
+        "itemId": 3110,
+        "itemName": "Frozen Heart",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 144,
+        "y": 48
+      },
+      {
+        "itemId": 3075,
+        "itemName": "Thornmail",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 384
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      },
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      }
+    ],
+    "sprite": "champion2.png",
+    "x": 240,
+    "y": 96
+  },
+  {
+    "championName": "Thresh",
+    "totalWins": 2,
+    "items": [
+      {
+        "itemId": 3302,
+        "itemName": "Relic Shield",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 240,
+        "y": 48
+      },
+      {
+        "itemId": 3031,
+        "itemName": "Infinity Edge",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 288
+      },
+      {
+        "itemId": 3087,
+        "itemName": "Statikk Shiv",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 432
+      },
+      {
+        "itemId": 1038,
+        "itemName": "B. F. Sword",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 48
+      },
+      {
+        "itemId": 3117,
+        "itemName": "Boots of Mobility",
+        "count": 2,
+        "sprite": "item1.png",
+        "x": 0,
+        "y": 96
+      },
+      {
+        "itemId": 3035,
+        "itemName": "Last Whisper",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 288
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 2,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      },
+      {
+        "itemId": 3401,
+        "itemName": "Face of the Mountain",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 240,
+        "y": 96
+      },
+      {
+        "itemId": 2049,
+        "itemName": "Sightstone",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 192
+      },
+      {
+        "itemId": 1011,
+        "itemName": "Giant's Belt",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 0
+      },
+      {
+        "itemId": 1031,
+        "itemName": "Chain Vest",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 0
+      },
+      {
+        "itemId": 2043,
+        "itemName": "Vision Ward",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 144
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      },
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Exhaust",
+        "spellID": 3,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 192,
+        "y": 0
+      }
+    ],
+    "sprite": "champion3.png",
+    "x": 240,
+    "y": 0
+  },
+  {
+    "championName": "Corki",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 1055,
+        "itemName": "Doran's Blade",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 96
+      },
+      {
+        "itemId": 3078,
+        "itemName": "Trinity Force",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 432
+      },
+      {
+        "itemId": 1053,
+        "itemName": "Vampiric Scepter",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 48
+      },
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3031,
+        "itemName": "Infinity Edge",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 288
+      },
+      {
+        "itemId": 1038,
+        "itemName": "B. F. Sword",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 48
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      },
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      }
+    ],
+    "sprite": "champion0.png",
+    "x": 240,
+    "y": 48
+  },
+  {
+    "championName": "Galio",
+    "totalWins": 2,
+    "items": [
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3040,
+        "itemName": "Seraph's Embrace",
+        "count": 2,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 288
+      },
+      {
+        "itemId": 3191,
+        "itemName": "Seeker's Armguard",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 288
+      },
+      {
+        "itemId": 2003,
+        "itemName": "Health Potion",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 144
+      },
+      {
+        "itemId": 3174,
+        "itemName": "Athene's Unholy Grail",
+        "count": 2,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 240
+      },
+      {
+        "itemId": 3065,
+        "itemName": "Spirit Visage",
+        "count": 2,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 384
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 2,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      },
+      {
+        "itemId": 1001,
+        "itemName": "Boots of Speed",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion0.png",
+    "x": 288,
+    "y": 96
+  },
+  {
+    "championName": "Annie",
+    "totalWins": 2,
+    "items": [
+      {
+        "itemId": 3259,
+        "itemName": "Enchantment: Alacrity",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 336,
+        "y": 384
+      },
+      {
+        "itemId": 3128,
+        "itemName": "Deathfire Grasp",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 192,
+        "y": 96
+      },
+      {
+        "itemId": 3102,
+        "itemName": "Banshee's Veil",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 0
+      },
+      {
+        "itemId": 3135,
+        "itemName": "Void Staff",
+        "count": 2,
+        "sprite": "item1.png",
+        "x": 336,
+        "y": 96
+      },
+      {
+        "itemId": 1058,
+        "itemName": "Needlessly Large Rod",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 96
+      },
+      {
+        "itemId": 2003,
+        "itemName": "Health Potion",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 144
+      },
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3089,
+        "itemName": "Rabadon's Deathcap",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 432
+      },
+      {
+        "itemId": 3174,
+        "itemName": "Athene's Unholy Grail",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 240
+      },
+      {
+        "itemId": 3191,
+        "itemName": "Seeker's Armguard",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 288
+      },
+      {
+        "itemId": 1057,
+        "itemName": "Negatron Cloak",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 96
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      },
+      {
+        "spellName": "Ignite",
+        "spellID": 14,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 144,
+        "y": 0
+      }
+    ],
+    "sprite": "champion0.png",
+    "x": 288,
+    "y": 0
+  },
+  {
+    "championName": "Fiddlesticks",
+    "totalWins": 2,
+    "items": [
+      {
+        "itemId": 3157,
+        "itemName": "Zhonya's Hourglass",
+        "count": 2,
+        "sprite": "item1.png",
+        "x": 192,
+        "y": 192
+      },
+      {
+        "itemId": 1057,
+        "itemName": "Negatron Cloak",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 96
+      },
+      {
+        "itemId": 3151,
+        "itemName": "Liandry's Torment",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 144
+      },
+      {
+        "itemId": 1026,
+        "itemName": "Blasting Wand",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3028,
+        "itemName": "Chalice of Harmony",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 288
+      },
+      {
+        "itemId": 3116,
+        "itemName": "Rylai's Crystal Scepter",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 432,
+        "y": 48
+      },
+      {
+        "itemId": 1001,
+        "itemName": "Boots of Speed",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 2,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion0.png",
+    "x": 144,
+    "y": 96
+  },
+  {
+    "championName": "Olaf",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3071,
+        "itemName": "The Black Cleaver",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 240,
+        "y": 384
+      },
+      {
+        "itemId": 3142,
+        "itemName": "Youmuu's Ghostblade",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 144,
+        "y": 144
+      },
+      {
+        "itemId": 3155,
+        "itemName": "Hexdrinker",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 96,
+        "y": 192
+      },
+      {
+        "itemId": 3158,
+        "itemName": "Ionian Boots of Lucidity",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 192
+      },
+      {
+        "itemId": 3035,
+        "itemName": "Last Whisper",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 288
+      },
+      {
+        "itemId": 1037,
+        "itemName": "Pickaxe",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion2.png",
+    "x": 432,
+    "y": 0
+  },
+  {
+    "championName": "Trundle",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3065,
+        "itemName": "Spirit Visage",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 384
+      },
+      {
+        "itemId": 3153,
+        "itemName": "Blade of the Ruined King",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 0,
+        "y": 192
+      },
+      {
+        "itemId": 3111,
+        "itemName": "Mercury's Treads",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 192,
+        "y": 48
+      },
+      {
+        "itemId": 3075,
+        "itemName": "Thornmail",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 384
+      },
+      {
+        "itemId": 3067,
+        "itemName": "Kindlegem",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 384
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion3.png",
+    "x": 336,
+    "y": 0
+  },
+  {
+    "championName": "Kennen",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3157,
+        "itemName": "Zhonya's Hourglass",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 192,
+        "y": 192
+      },
+      {
+        "itemId": 3135,
+        "itemName": "Void Staff",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 336,
+        "y": 96
+      },
+      {
+        "itemId": 3136,
+        "itemName": "Haunting Guise",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 96
+      },
+      {
+        "itemId": 3001,
+        "itemName": "Abyssal Scepter",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion1.png",
+    "x": 240,
+    "y": 48
+  },
+  {
+    "championName": "Zilean",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3040,
+        "itemName": "Seraph's Embrace",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 288
+      },
+      {
+        "itemId": 3174,
+        "itemName": "Athene's Unholy Grail",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 288,
+        "y": 240
+      },
+      {
+        "itemId": 1056,
+        "itemName": "Doran's Ring",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 96
+      },
+      {
+        "itemId": 3165,
+        "itemName": "Morellonomicon",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 192
+      },
+      {
+        "itemId": 1001,
+        "itemName": "Boots of Speed",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "itemId": 1052,
+        "itemName": "Amplifying Tome",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion3.png",
+    "x": 432,
+    "y": 96
+  },
+  {
+    "championName": "Nunu",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3028,
+        "itemName": "Chalice of Harmony",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 192,
+        "y": 288
+      },
+      {
+        "itemId": 3190,
+        "itemName": "Locket of the Iron Solari",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 192,
+        "y": 288
+      },
+      {
+        "itemId": 1001,
+        "itemName": "Boots of Speed",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "itemId": 3067,
+        "itemName": "Kindlegem",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 384
+      },
+      {
+        "itemId": 1053,
+        "itemName": "Vampiric Scepter",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 432,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion2.png",
+    "x": 384,
+    "y": 0
+  },
+  {
+    "championName": "Miss Fortune",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3071,
+        "itemName": "The Black Cleaver",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 240,
+        "y": 384
+      },
+      {
+        "itemId": 3508,
+        "itemName": "Essence Reaver",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 96,
+        "y": 240
+      },
+      {
+        "itemId": 1038,
+        "itemName": "B. F. Sword",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 144,
+        "y": 48
+      },
+      {
+        "itemId": 1001,
+        "itemName": "Boots of Speed",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Teleport",
+        "spellID": 12,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 96,
+        "y": 48
+      }
+    ],
+    "sprite": "champion1.png",
+    "x": 432,
+    "y": 96
+  },
+  {
+    "championName": "Twisted Fate",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 1055,
+        "itemName": "Doran's Blade",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 48,
+        "y": 96
+      },
+      {
+        "itemId": 3144,
+        "itemName": "Bilgewater Cutlass",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 144
+      },
+      {
+        "itemId": 3006,
+        "itemName": "Berserker's Greaves",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 240
+      },
+      {
+        "itemId": 3091,
+        "itemName": "Wit's End",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "itemId": 3031,
+        "itemName": "Infinity Edge",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 288
+      },
+      {
+        "itemId": 3087,
+        "itemName": "Statikk Shiv",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 432
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion3.png",
+    "x": 432,
+    "y": 0
+  },
+  {
+    "championName": "Teemo",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 1056,
+        "itemName": "Doran's Ring",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 96,
+        "y": 96
+      },
+      {
+        "itemId": 3151,
+        "itemName": "Liandry's Torment",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 384,
+        "y": 144
+      },
+      {
+        "itemId": 3020,
+        "itemName": "Sorcerer's Shoes",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 240
+      },
+      {
+        "itemId": 3091,
+        "itemName": "Wit's End",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "itemId": 3085,
+        "itemName": "Runaan's Hurricane (Ranged Only)",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 240,
+        "y": 432
+      },
+      {
+        "itemId": 2052,
+        "itemName": "Poro-Snax",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 192
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Heal",
+        "spellID": 7,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 336,
+        "y": 0
+      }
+    ],
+    "sprite": "champion3.png",
+    "x": 192,
+    "y": 0
+  },
+  {
+    "championName": "Gangplank",
+    "totalWins": 1,
+    "items": [
+      {
+        "itemId": 3087,
+        "itemName": "Statikk Shiv",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 336,
+        "y": 432
+      },
+      {
+        "itemId": 3057,
+        "itemName": "Sheen",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 384,
+        "y": 336
+      },
+      {
+        "itemId": 3158,
+        "itemName": "Ionian Boots of Lucidity",
+        "count": 1,
+        "sprite": "item1.png",
+        "x": 240,
+        "y": 192
+      },
+      {
+        "itemId": 3031,
+        "itemName": "Infinity Edge",
+        "count": 1,
+        "sprite": "item0.png",
+        "x": 288,
+        "y": 288
+      },
+      {
+        "itemId": 3340,
+        "itemName": "Warding Totem (Trinket)",
+        "count": 1,
+        "sprite": "item2.png",
+        "x": 336,
+        "y": 48
+      }
+    ],
+    "spells": [
+      {
+        "spellName": "Flash",
+        "spellID": 4,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 240,
+        "y": 0
+      },
+      {
+        "spellName": "Teleport",
+        "spellID": 12,
+        "count": 1,
+        "sprite": "spell0.png",
+        "x": 96,
+        "y": 48
+      }
+    ],
+    "sprite": "champion0.png",
+    "x": 336,
+    "y": 96
+  }
+]
