@@ -13,16 +13,16 @@ body {
 }
 
 #title {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-left: auto;
     padding: 10px;
     width: 1400px;
     height: auto;
     background-color: #535353 ;
-    border: solid 1px #CCC;
-    border-radius: 5px;
+    border: solid 10px #222;
+    border-radius: 25px;
     text-align:center;
 	color: white;
 }
@@ -36,8 +36,8 @@ body {
     width: 1400px;
     height:auto;
     background-color: #535353 ;
-    border: solid 1px #CCC;
-    border-radius: 5px;
+    border: solid 10px #222;
+    border-radius: 25px;
 }
 
 #footer {
@@ -49,8 +49,8 @@ body {
     width: 1400px;
     height: auto;
     background-color: #535353 ;
-    border: solid 1px #CCC;
-    border-radius: 5px;
+    border: solid 10px #222;
+    border-radius: 25px;
     text-align:center;
     font-weight:bold;
     color:black;
@@ -63,20 +63,20 @@ body {
     min-height: 200px;
     width:auto;
     background-color: #a8b5a3   ;
-    border: solid 1px #CCC;
-    border-radius: 5px;
+    border: solid 5px #111;
+    border-radius: 25px;
     opacity:0.8
 }
 
 .EasyControl
 {
-    background-color:#374d5a;
+    background-color:#526480;
     color: white;
 }
 
 .EasyControl:hover
 {
-    background-color: #858000;
+    background-color: #017865;
 }
 
 input[disabled],
@@ -104,7 +104,7 @@ input {
 }
 
 .pagination a:hover {
-    background-color: #858000;
+    background-color: #017865;
     color: white;
 }
 
@@ -134,14 +134,14 @@ select
 .table th
 {
     cursor: pointer;
-    background-color: #374d5a;
+    background-color: #526480;
     color:white;
     
 }
 
 .table th:hover
 {
-    background-color: #858000;
+    background-color: #017865;
     color:black;
 }
 

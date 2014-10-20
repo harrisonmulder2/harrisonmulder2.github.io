@@ -14,45 +14,35 @@
         <div id="title">
             <table style="width:inherit;">
                 <tr>
-                    <td style="width:33%;"></td>
+				    <td style="width:33%;">
+						<img ng-src="images/gifs/5a.gif"/>
+						<img ng-src="images/gifs/7a.gif">
+						<img ng-src="images/gifs/4a.gif"/>
+						<img ng-src="images/gifs/1a.gif"/>
+						<img ng-src="images/gifs/3.gif"/>
+						<img ng-src="images/gifs/6a.gif"/>
+						<img ng-src="images/gifs/2a.gif"/>
+					</td>
                     <td style="width:33%;"><h1 style="font-family:">Welcome to Items OP!</h1></td>
-                    <td style="width:33%;"><img ng-src="images/ajax-loader.gif" ng-show="!doneLoading"/></td>
+                    <td style="width:33%;">
+						<img ng-src="images/gifs/2.gif"/>
+						<img ng-src="images/gifs/6.gif"/>
+						<img ng-src="images/gifs/3a.gif"/>
+						<img ng-src="images/gifs/1.gif"/>
+						<img ng-src="images/gifs/4.gif"/>
+						<img ng-src="images/gifs/7.gif"/>
+						<img ng-src="images/gifs/5.gif"/>
+					</td>
                 </tr>
             </table>
         </div>
 
         <div id="body">
             <div id="content">
-                <ul class="unstyled" style="font-weight:bold;font-size:14px;">
-                    <li style="margin:5px;" ng-show="showSearch['Main'][0]">
-                        <input type="text" ng-model="query['Main'][0]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
-                        <input class="EasyControl" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
-                    </li>
-                    <li style="margin:5px;" ng-show="showSearch['Main'][1]">
-                        <input type="text" ng-model="query['Main'][1]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
-                        <input class="EasyControl" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
-                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(1, 'Main')"/>
-                    </li>
-                    <li style="margin:5px;" ng-show="showSearch['Main'][2]">
-                        <input type="text" ng-model="query['Main'][2]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
-                        <input class="EasyControl" id="Button2" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
-                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(2, 'Main')"/>
-                    </li>
-                    <li style="margin:5px;" ng-show="showSearch['Main'][3]">
-                        <input type="text" ng-model="query['Main'][3]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
-                        <input class="EasyControl" id="Button3" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
-                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(3, 'Main')"/>
-                    </li>
-                    <li style="margin:5px;" ng-show="showSearch['Main'][4]">
-                        <input type="text" ng-model="query['Main'][4]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
-                        <input class="EasyControl" id="Button4" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
-                        <input class="EasyControl" type="button" value="-" ng-click="removeSearch(4, 'Main')"/>
-                    </li>
-                </ul>
-
+			
                 <table style="width:inherit;">
                     <tr>
-                        <td style="width:370px;">
+                        <td style="width:350px;vertical-align:top;">
                             <ul ng-show="itemsPerPage.value != 0" class="pagination">
                                 <li ng-class="{disabled: currentPage.value == 0}">
                                     <a class="EasyControl" href ng-click="prevPage()">Prev Page</a>
@@ -71,15 +61,12 @@
                                     <a class="EasyControl" href ng-click="nextPage()">Next Page</a>
                                 </li>
                             </ul>
-
-                            <label><b>{{resultsCount['Main']}} champions:</b></label>
-                        </td>
-                        <td style="width:780px;"></td>
-                        <td>
-                            <ul class="pagination" style="width:300px;text-align:center;">
+						</td>
+                        <td style="width:250px;vertical-align:top;">
+                            <ul class="pagination" style="width:300px;text-align:center;margin-left:40px;">
                                 <li style="text-align:left" title="Choose the number of items to display on each page of the data table.">
                                     <a class="EasyControl noOrange">
-                                        <span style="font-weight:bold;font-size:13px;width:80px;">Results per page:</span>
+                                        <span style="font-weight:bold;font-size:13px;width:80px;">Champions per page:</span>
                                     </a>
                                 </li>
                                 <li>
@@ -95,8 +82,9 @@
                                     </a>
                                 </li>
                             </ul>
-
-                            <ul class="pagination" style="width:300px;text-align:center;">
+                        </td>
+						<td style="width:250px;vertical-align:top;">
+						     <ul class="pagination" style="width:300px;text-align:center;margin-left:20px;">
                                 <li style="text-align:left" title="Choose the % of wins to display the items and spells.">
                                     <a class="EasyControl noOrange">
                                         <span style="font-weight:bold;font-size:13px;">Minimum win %:</span>
@@ -115,11 +103,41 @@
                                     </a>
                                 </li>
                             </ul>
-                        </td>
-                    </tr>
+						</td>
+						<td style="width:350px;vertical-align:top;">
+							<ul class="unstyled" style="font-weight:bold;font-size:14px;margin-top:20px;margin-left:20px;">
+								<li style="margin:5px;" ng-show="showSearch['Main'][0]">
+									<input type="text" ng-model="query['Main'][0]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+									<input class="EasyControl" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+								</li>
+								<li style="margin:5px;" ng-show="showSearch['Main'][1]">
+									<input type="text" ng-model="query['Main'][1]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+									<input class="EasyControl" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+									<input class="EasyControl" type="button" value="-" ng-click="removeSearch(1, 'Main')"/>
+								</li>
+								<li style="margin:5px;" ng-show="showSearch['Main'][2]">
+									<input type="text" ng-model="query['Main'][2]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+									<input class="EasyControl" id="Button2" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+									<input class="EasyControl" type="button" value="-" ng-click="removeSearch(2, 'Main')"/>
+								</li>
+								<li style="margin:5px;" ng-show="showSearch['Main'][3]">
+									<input type="text" ng-model="query['Main'][3]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+									<input class="EasyControl" id="Button3" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+									<input class="EasyControl" type="button" value="-" ng-click="removeSearch(3, 'Main')"/>
+								</li>
+								<li style="margin:5px;" ng-show="showSearch['Main'][4]">
+									<input type="text" ng-model="query['Main'][4]" ng-change="search('Main')" class="input-large search-query" placeholder="Search"/>
+									<input class="EasyControl" id="Button4" type="button" value="+" ng-disabled="searchesShown['Main'] == 5" ng-click="addSearch('Main')"/>
+									<input class="EasyControl" type="button" value="-" ng-click="removeSearch(4, 'Main')"/>
+								</li>
+							</ul>
+						</td>
+					</tr>
                 </table>
 
-                <table class="table table-striped" rules="all">
+				<label ng-show="doneLoading"><b>Results: {{resultsCount['Main']}} champions</b></label>
+				
+                <table ng-show="doneLoading" class="table table-striped" rules="all" style="border:3px solid black;">
                     <thead>
                         <tr>
                             <th style="width:110px;" ng-click="sort_by('championName', 'Main')">Champion<span style="color:white">{{collapseChar['Main'].championName}}</span></th>
@@ -154,6 +172,8 @@
                     </tbody>
                 </table>
 
+				<img style="display:block;margin-left:auto;margin-right:auto;" ng-src="images/gifs/8.gif" ng-show="!doneLoading"/>
+				
                 <div ng-show="itemsPerPage.value == 0 && numItemsDisplayed < resultsCount['Main']">
                     <input class="EasyControl" style="width:auto;height:50px;" type="button" value="Load 25 More" ng-click="increaseDisplayLimit()" />
                 </div>
@@ -161,7 +181,7 @@
         </div>
 
         <div id="footer">
-            <h6>This product is not endorsed, certified or otherwise approved in any way by Riot Games, Inc. or any of its affiliates.</h6>
+            <h4 style="color:white;">This product is not endorsed, certified or otherwise approved in any way by Riot Games, Inc. or any of its affiliates.</h4>
         </div>
     </body>
 </html>
