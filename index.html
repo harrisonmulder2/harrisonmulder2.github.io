@@ -154,14 +154,14 @@
                     <tbody>
                         <tr ng-repeat="item in pagedItems[currentPage.value] | orderBy:predicate['Main']:reverse['Main'] | limitTo:numItemsDisplayed">
                             <td style="font-size:medium; font-weight:bold;">
-								<div style="background: url('http://ddragon.leagueoflegends.com/cdn/4.18.1/img/sprite/{{item.sprite}}') -{{item.x}}px -{{item.y}}px	no-repeat; display: block; margin-left: auto; margin-right: auto; height:48px; width:48px;" title="{{item.championName}}"></div>
+								<div style="background: url('http://ddragon.leagueoflegends.com/cdn/4.18.1/img/sprite/{{item.sprite}}'); display: block; margin-left: auto; margin-right: auto; height:48px; width:48px;" ng-style="{'background-position': getSpriteStyle({{item.x}},{{item.y}})}" title="{{item.championName}}"></div>
                                 {{item.championName}} <br />
                                 <label>{{item.totalWins}} wins</label>
                             </td>
                             <td style="font-weight:bold">
                                 <span ng-repeat="purchase in item.items | orderBy:'count':true">
                                     <div ng-show="shouldShow(purchase, item)" style="float:left;margin:3px;">
-										<div style="background: url('http://ddragon.leagueoflegends.com/cdn/4.18.1/img/sprite/{{purchase.sprite}}') -{{purchase.x}}px -{{purchase.y}}px	no-repeat; display: block; margin-left: auto; margin-right: auto; height:48px; width:48px;" title="{{purchase.itemName}}"></div>
+										<div style="background: url('http://ddragon.leagueoflegends.com/cdn/4.18.1/img/sprite/{{purchase.sprite}}'); display: block; margin-left: auto; margin-right: auto; height:48px; width:48px;" ng-style="{'background-position': getSpriteStyle({{purchase.x}},{{purchase.y}})}" title="{{purchase.itemName}}"></div>
                                         <div>{{(purchase.count / item.totalWins) * 100 | number:2}}%</div>
                                     </div>
                                 </span>
@@ -169,7 +169,7 @@
                             <td style="font-weight:bold">
                                 <span ng-repeat="spell in item.spells | orderBy:'count':true">
                                     <div ng-show="shouldShow(spell, item)" style="float:left;width:80px;">
-										<div style="background: url('http://ddragon.leagueoflegends.com/cdn/4.18.1/img/sprite/{{spell.sprite}}') -{{spell.x}}px -{{spell.y}}px	no-repeat; display: block; margin-left: auto; margin-right: auto; height:48px; width:48px;" title="{{spell.spellName}}"></div>
+										<div style="background: url('http://ddragon.leagueoflegends.com/cdn/4.18.1/img/sprite/{{spell.sprite}}'); display: block; margin-left: auto; margin-right: auto; height:48px; width:48px;" ng-style="{'background-position': getSpriteStyle({{spell.x}},{{spell.y}})}" title="{{spell.spellName}}"></div>
                                         <div>{{(spell.count / item.totalWins) * 100 | number:2}}%</div>
                                     </div>
                                 </span>

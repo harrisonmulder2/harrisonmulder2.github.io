@@ -317,10 +317,10 @@ mainController.controller('MainCtrl', ['$scope', '$http', '$filter',
 				}
             }
 
-			$scope.getStyle = function (xCoord, yCoord, ISprite) {
-				return 'url("http://ddragon.leagueoflegends.com/cdn/4.4.3/img/sprite/' + ISprite + ') ' + xCoord + 'px ' + yCoord + 'px no-repeat';
-			};
-
+			$scope.getSpriteStyle = function(xCoord, yCoord){
+				return '-' + xCoord + 'px -' + yCoord + 'px';
+			;}
+			
             $http.get("https://api.mongolab.com/api/1/databases/leagueapp/collections/ItemIds?apiKey=LbdsOrwTL5008Fb-T4TLQMtnFaXFI7D-").success(function (data) {
                 $scope.itemIds = data;
                 $scope.grabData();
