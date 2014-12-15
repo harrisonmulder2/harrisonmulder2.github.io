@@ -59,7 +59,7 @@ mainController.controller('MainCtrl', ['$scope', '$http', '$filter',
 
 /********** On Startup **************************************************/
 
-            // Set up timer to update the list every 5 seconds
+            // Set up timer to update the list every 5 minutes
             setInterval(scheduledUpdate, (1000 * 60 * 5));
 
 /********** Functions ***************************************************/
